@@ -5,9 +5,6 @@
   - If they are not yet connected, connect them and print out pair
 */
 
-const PAIRS = [[4,3], [3,8], [6,5], [9,4], [2,1],
- [8,9], [5,0], [7,2], [6,1], [1,0], [6,7]];
-
 class QuickFind {
   constructor(numElements) {
     this.id = [];
@@ -34,6 +31,6 @@ class QuickFind {
 }
 
 /*
-  Union is too expensive; in combination with initialization results
+  Union is too expensive; combination with initialization results
   in quadratic behavior
 */
